@@ -62,13 +62,13 @@ public class JavaFX extends Application
                     
                     if(rightsTurn)
                     {
-                        Card newRightCard = deck.deal();
+                        PlayingCard newRightCard = (PlayingCard) deck.deal();
                         lblCardRight.setGraphic(newRightCard);
                         rightVal = newRightCard.getValue();
                     }
                     else
                     {
-                        Card newLeftCard = deck.deal();
+                       PlayingCard newLeftCard = (PlayingCard) deck.deal();
                         lblCardLeft.setGraphic(newLeftCard); 
                         leftVal = newLeftCard.getValue();
                     }
@@ -151,9 +151,9 @@ public class JavaFX extends Application
         }
     public void resetCardImages()
     {
-        Card cardLeft = new Card();
-        Card cardRight = new Card();
-        Card cardDeck = new Card();
+        PlayingCard cardLeft = new PlayingCard();
+        PlayingCard cardRight = new PlayingCard();
+        PlayingCard cardDeck = new PlayingCard();
         lblCardLeft.setGraphic(cardLeft);
         lblCardRight.setGraphic(cardRight);
         lblCardDeck.setGraphic(cardDeck);

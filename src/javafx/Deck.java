@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Random;
 
-public class Deck extends ArrayList
+public class Deck extends ArrayList<Card>
 {
     //Field
    int index = 0;
@@ -31,7 +31,7 @@ public class Deck extends ArrayList
            index = 0;
        }
        index++;
-       return (Card) this.get(index); //why did i have to cast it as a card?
+       return this.get(index); //why did i have to cast it as a card?
        //I didnt think it would be this
    }
    public void shuffle()
@@ -43,7 +43,7 @@ public class Deck extends ArrayList
        for(int x = 0; x < 52; ++x)
        {
            
-           this.add(new Card(path + cardCount + ".gif"));
+           this.add(new PlayingCard(path + cardCount + ".gif"));
            ++cardCount;
        }
        shuffle();
