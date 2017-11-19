@@ -4,10 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/Deck.java</file>
-            <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/Score.java</file>
             <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/Suit.java</file>
+            <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/TarotCard.java</file>
             <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/Card.java</file>
             <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/JavaFX.java</file>
+            <file>file:/C:/Users/James/Documents/NetBeansProjects/JavaFX/src/javafx/PlayingCard.java</file>
         </group>
     </open-files>
 </project-private>

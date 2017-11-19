@@ -151,9 +151,9 @@ public class JavaFX extends Application
         }
     public void resetCardImages()
     {
-        PlayingCard cardLeft = new PlayingCard();
-        PlayingCard cardRight = new PlayingCard();
-        PlayingCard cardDeck = new PlayingCard();
+        TarotCard cardLeft = new  TarotCard("file:img\\Tarot\\maj_20.jpg");
+         TarotCard cardRight = new  TarotCard("file:img\\Tarot\\maj_08.jpg");
+        TarotCard cardDeck = new  TarotCard("file:img\\Tarot\\maj_05.jpg");
         lblCardLeft.setGraphic(cardLeft);
         lblCardRight.setGraphic(cardRight);
         lblCardDeck.setGraphic(cardDeck);
